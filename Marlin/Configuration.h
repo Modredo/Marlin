@@ -516,7 +516,7 @@
 //#define USE_ZMAX_PLUG
 
 // Enable pullup for all endstops to prevent a floating state
-define ENDSTOPPULLUPS //disabled for testing of the sensorless homing
+#define ENDSTOPPULLUPS //disabled for testing of the sensorless homing
 #if DISABLED(ENDSTOPPULLUPS)
   // Disable ENDSTOPPULLUPS to set pullups individually
   //#define ENDSTOPPULLUP_XMAX
