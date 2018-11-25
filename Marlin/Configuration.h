@@ -381,21 +381,11 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Tronxy X1
-  //#define DEFAULT_Kp 16.20
-  //#define DEFAULT_Ki 1.11
-  //#define DEFAULT_Kd 59.06
-
-  // Tronxy XL e3d
-  //#define DEFAULT_Kp 19.81
-  //#define DEFAULT_Ki 1.34
-  //#define DEFAULT_Kd 73.03
+  //ZUKO S1
+  #define DEFAULT_Kp 15.68
+  #define DEFAULT_Ki 1.11
+  #define DEFAULT_Kd 55.23
   
-  // Tronxy XL e3d 12v > 24V
-  #define DEFAULT_Kp 4.93
-  #define DEFAULT_Ki 0.26
-  #define DEFAULT_Kd 23.20
-
   // Ultimaker
   //#define DEFAULT_Kp 22.2
   //#define DEFAULT_Ki 1.08
@@ -570,7 +560,7 @@
  */
 #define X_DRIVER_TYPE  A4988
 #define Y_DRIVER_TYPE  TMC2130
-#define Z_DRIVER_TYPE  DRV8825
+#define Z_DRIVER_TYPE  A4988
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
