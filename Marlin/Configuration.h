@@ -564,7 +564,7 @@
 //#define X2_DRIVER_TYPE A4988
 //#define Y2_DRIVER_TYPE A4988
 //#define Z2_DRIVER_TYPE A4988
-#define E0_DRIVER_TYPE DRV8825
+#define E0_DRIVER_TYPE A4988
 //#define E1_DRIVER_TYPE A4988
 //#define E2_DRIVER_TYPE A4988
 //#define E3_DRIVER_TYPE A4988
@@ -616,7 +616,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 100, 400, 418.5 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 100, 210, 454.7 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -896,7 +896,7 @@
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 140
+#define Z_MAX_POS 220
 
 /**
  * Software Endstops
